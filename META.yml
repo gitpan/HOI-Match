@@ -20,4 +20,4 @@ no_index:
 requires:
   Parse::Lex: 2.21
   Parse::Yapp::Driver: 1.05
-version: 0.01
+version: 0.02
