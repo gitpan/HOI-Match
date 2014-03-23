@@ -33,6 +33,7 @@ A list is represented as an array reference.
 An algebraic-data-typed object is represented as an hashref with two keys,
 namely "type", which gives its typename, and "val", which is an array reference 
 containing zero or more wildcard symbols, lists, or algebraic-data-typed objects.
+Multiple constructors for a given algebraic data type named A are allowed.
 
 The BNF used to define the pattern grammar is given below:
 
